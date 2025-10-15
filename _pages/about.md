@@ -1,6 +1,6 @@
 ---
 permalink: /
-#title: " Homepage"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ## Welcome!
-I am a fourth-year Ph.D. Candidate in Statistical Science and Teacher of Record at Baylor University.  My primary research focuses on developing [*sufficient dimension reduction methodologies*](https://en.wikipedia.org/wiki/Sufficient_dimension_reduction) for high-dimensional data analysis with an emphasis on Genomics.  Moreover, I have introduced an emerging field of *dimension reduction subspace criteria* which proposes new ways to order and evaluate subspaces beyond traditional eigenvalue-based methods. I am passionate about both teaching and research and aspire to join a university where I can teach and mentor students while continuing to advance statistical methodology.
+I am a fourth-year Ph.D. Candidate in Statistical Science and Teacher of Record at Baylor University.  My primary research focuses on developing [*sufficient dimension reduction methodologies*](https://en.wikipedia.org/wiki/Sufficient_dimension_reduction) for high-dimensional data analysis with an emphasis on [*Genomics*](https://en.wikipedia.org/wiki/Genomics).  Moreover, I have introduced an emerging field of *dimension reduction subspace criteria* which proposes new ways to order and evaluate subspaces beyond traditional eigenvalue-based methods. I am passionate about both teaching and research and aspire to join a university where I can teach and mentor students while continuing to advance statistical methodology.
 
 ## Education
 
