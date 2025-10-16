@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # Currently available options are "default", "air"
-title                    : "Derik B. Homepage"
+site_theme               : "default" # Currently available options are "default", "air"
+title                    : "Derik B."
 title_separator          : "-"
 name                     : &name "Derik Todd Boonstra"
 description              : &description "Derik Todd Boonstra personal website"   # Update this with a general description of your site, this is the default if not overridden by a page
