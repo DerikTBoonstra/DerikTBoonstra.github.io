@@ -23,3 +23,11 @@ author_profile: true
 </div>
 
 
+Whether one is a freshman taking their first introductory statistics course or a tenured statistics professor
+with countless publications and citations, statistics is hard! This is because statistics is inherently trying
+to solve a nearly impossible problem: using a relatively minuscule amount of data to make predictions and
+inferences about an entire population. The nature of this challenge leads to an unsettling fact about the
+field. That is, unlike other fields that may produce clear and deterministic results, statistics lives in the
+gray. It is a discipline grounded in uncertainty, where most answers carry some level of doubt. My teaching
+philosophy embraces this grayness and recognizes that learning is not about perfection but about pushing
+the mind to engage with unfamiliar ideas. 
