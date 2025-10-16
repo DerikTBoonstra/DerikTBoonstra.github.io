@@ -25,4 +25,12 @@ I am a fourth-year Ph.D. Candidate in Statistical Science and Teacher of Record 
 
 ## More About Me 
 
-I am from Lufkin, TX (East, TX). I attended Hudson ISD, where I 
+I am from [Lufkin, TX](https://en.wikipedia.org/wiki/Lufkin,_Texas) (East TX & less than 2 hours from Houston). I attended [Hudson ISD](https://www.hudsonisd.org) where I met my partner Paxton. We are high school sweethearts who have been growing through life together ever since.
+She attended Texas Tech University, where she earned her B.S.N., and is now a certified emergency nurse and has just accomplished obtaining her M.S.N. I attended Baylor University, where I earned my B.B.A. through the [Business Fellows](https://hankamer.baylor.edu/fellows) program while also majoring in Statistics, Finance, and Accounting. We now live together in Waco, TX, with our dog-daughter Khaleesi (Khali for short), who is a lab mix.
+<div style="display:flex; justify-content:center; align-items:center; gap:10px;">
+
+  <img src="/files/about_me_1.png" alt="Khaleesi in the snow" style="width:48%; border-radius:8px;">
+
+  <img src="/files/about_me_2.png" alt="Khaleesi with us in Ghostbusters costumes" style="width:48%; border-radius:8px;">
+
+</div>
