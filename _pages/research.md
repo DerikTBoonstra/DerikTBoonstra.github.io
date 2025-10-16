@@ -31,7 +31,7 @@ author_profile: true
 “Sufficient Dimension Reduction Methods for High-Dimensional Data Are Overly Complicated.”
 
 **Boonstra, D. T.**, Kim, R., and Young, D. M.  
-“Dimension Reduction Subspace Criteria via a Quadratic Discriminant Optimal Error Rate.”
+“A Dimension Reduction Subspace Criterion via a Quadratic Discriminant Optimal Error Rate.”
 
 
 
