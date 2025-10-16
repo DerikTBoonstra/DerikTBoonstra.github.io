@@ -25,4 +25,4 @@ I am a fourth-year Ph.D. Candidate in Statistical Science and Teacher of Record 
 
 ## More About Me 
 
-I am from Lufkin, TX. 
+I am from Lufkin, TX. I attended Hudson ISD. 
