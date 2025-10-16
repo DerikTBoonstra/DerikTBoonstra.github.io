@@ -24,3 +24,5 @@ I am a fourth-year Ph.D. Candidate in Statistical Science and Teacher of Record 
 - Honors Thesis: “Statistical Properties of Financial Market Data Structures”
 
 ## More About Me 
+
+I am from Lufkin, TX. 
