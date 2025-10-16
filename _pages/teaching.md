@@ -31,3 +31,14 @@ field. That is, unlike other fields that may produce clear and deterministic res
 gray. It is a discipline grounded in uncertainty, where most answers carry some level of doubt. My teaching
 philosophy embraces this grayness and recognizes that learning is not about perfection but about pushing
 the mind to engage with unfamiliar ideas. 
+
+## Courses Taught 
+
+**QBA 3305:** *Introduction to Business Analytics* <span style="float:right;">Fall 2025 – Present</span>  
+- Teacher of Record. Independently developed all lecture materials, assignments, projects, and examinations. Taught undergraduate business students R programming for statistical methodologies as part of a departmental initiative to expose students to modern trends in data science for business analytics.  
+
+**STA 1380:** *Elementary Statistics* <span style="float:right;">Fall 2023, Spring 2024, Fall 2024, Spring 2025</span>  
+- Teacher of Record advised by [Amy B. Maddox, Ph.D.](https://statistics.artsandsciences.baylor.edu/person/dr-amy-b-maddox).  Developed all assignments and examinations.  Taught core statistical concepts including probability models, hypothesis testing, and regression with data analysis and visualization using JMP.  
+
+**STA 1380:** *Elementary Statistics (Supplemental Instructor)* <span style="float:right;">Fall 2022, Spring 2023</span>  
+- Taught recitation courses for STA 1380 and assisted with grading examinations.
