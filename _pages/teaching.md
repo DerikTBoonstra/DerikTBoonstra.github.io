@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-<div style="display:flex; align-items:center; justify-content:space-between; gap:8px;">
+<div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
 
   <blockquote style="margin:0; font-style:italic; max-width:75%;">
     “It is so shocking to find out how many people do not believe that they can learn, and how many more believe learning to be difficult.”
