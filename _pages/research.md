@@ -26,7 +26,7 @@ author_profile: true
 
 ---
 
-### Manuscripts in Progress
+## Manuscripts in Progress
 
 **Boonstra, D. T.**, Kim, R., and Young, D. M.  
 “Heteroscedastic Invariant Sufficient Dimension Reduction.”
