@@ -24,13 +24,13 @@ author_profile: true
 
 
 Whether one is a freshman taking their first introductory statistics course or a tenured statistics professor
-with countless publications and citations, statistics is hard! This is because statistics is inherently trying
+with countless publications and citations, statistics is hard! This fact is because statistics is inherently trying
 to solve a nearly impossible problem. That is, using a relatively minuscule amount of data to make predictions and
 inferences about an entire population. The nature of this challenge leads to an unsettling fact about the
 field. Unlike other fields that may produce clear and deterministic results, statistics lives in the
 gray. It is a discipline grounded in uncertainty, where most answers carry some level of doubt. My teaching
 philosophy embraces this grayness and recognizes that learning is not about perfection but about pushing
-the mind to engage with unfamiliar ideas. 
+the mind to engage with unfamiliar ideas. I am an advocate for inclusive and engaging teaching to ensure statistical education is accessible to all learners regardless of their background, and  an active member of the American Statistical Association [Section on Statistics and Data Science Education](https://community.amstat.org/statisticaleducationsection/home).
 
 ## Courses Taught 
 
