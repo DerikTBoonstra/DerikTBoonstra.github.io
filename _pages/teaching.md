@@ -32,9 +32,8 @@ gray. It is a discipline grounded in uncertainty, where most answers carry some 
 philosophy embraces this grayness and recognizes that learning is not about perfection but about pushing
 the mind to engage with unfamiliar ideas. I am an advocate for inclusive and engaging teaching to ensure statistical education is accessible to all learners regardless of their background.  I am an active member of the American Statistical Association [Section on Statistics and Data Science Education](https://community.amstat.org/statisticaleducationsection/home).
 
-----
-
 ## Courses Taught 
+---
 
 **QBA 3305:** *Introduction to Business Analytics* <span style="float:right;">Fall 2025 – Present</span>  
 - Teacher of Record. Independently developed all lecture materials, assignments, projects, and examinations. Taught undergraduate business students R programming for statistical methodologies as part of a departmental initiative to expose students to modern trends in data science for business analytics.  
