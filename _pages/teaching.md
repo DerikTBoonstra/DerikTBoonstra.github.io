@@ -30,7 +30,7 @@ inferences about an entire population. The nature of this challenge leads to an 
 field. Unlike other fields that may produce clear and deterministic results, statistics lives in the
 gray. It is a discipline grounded in uncertainty, where most answers carry some level of doubt. My teaching
 philosophy embraces this grayness and recognizes that learning is not about perfection but about pushing
-the mind to engage with unfamiliar ideas. I am an advocate for inclusive and engaging teaching to ensure statistical education is accessible to all learners regardless of their background, and  an active member of the American Statistical Association [Section on Statistics and Data Science Education](https://community.amstat.org/statisticaleducationsection/home).
+the mind to engage with unfamiliar ideas. I am an advocate for inclusive and engaging teaching to ensure statistical education is accessible to all learners regardless of their background.  I am an active member of the American Statistical Association [Section on Statistics and Data Science Education](https://community.amstat.org/statisticaleducationsection/home).
 
 ## Courses Taught 
 
