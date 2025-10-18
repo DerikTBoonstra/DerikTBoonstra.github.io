@@ -15,7 +15,7 @@ I am a fourth-year Ph.D. Candidate in Statistical Science and Teacher of Record 
 **Ph.D.**, *Statistics, Baylor University*  May 2026 (Expected)  
 - Concentrations: Data Science and Biostatistics  
 - Advisors: [Dean M. Young, Ph.D.](https://statistics.artsandsciences.baylor.edu/person/dr-dean-m-young) and [Rakheon Kim, Ph.D.](https://statistics.artsandsciences.baylor.edu/person/dr-rakheon-kim)  
-- Dissertation: “The Introduction of Dimension Reduction Subspace Criteria and New Heteroscedastic Sufficient Dimension Reduction Methodologies”
+- Dissertation: “The Introduction of Dimension Reduction Subspace Ordering Criteria and New Heteroscedastic Sufficient Dimension Reduction Methodologies”
 
 **M.S.**, *Statistics, Baylor University*  2023 
 
