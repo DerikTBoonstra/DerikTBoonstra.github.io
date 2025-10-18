@@ -24,9 +24,7 @@ author_profile: true
 “Precision Matrix Regularization in Sufficient Dimension Reduction for Improved Quadratic Discriminant Classification.”  
 *Under Review at Computational Statistics and Data Analysis.*  doi: [10.48550/arXiv.2506.19192](https://doi.org/10.48550/arXiv.2506.19192)
 
----
-
-## Manuscripts in Progress
+### Manuscripts in Progress
 
 **Boonstra, D. T.**, Kim, R., and Young, D. M.  
 “Heteroscedastic Invariant Sufficient Dimension Reduction.”
