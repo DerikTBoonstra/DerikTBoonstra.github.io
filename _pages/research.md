@@ -8,13 +8,17 @@ author_profile: true
 
 ## Sufficient Dimension Reduction
 
+--- 
+
 ## Dimension Reduction Subspace Criteria
+
+--- 
 
 ## Publications & Manuscripts
 
 **Boonstra, D. T.**, Kim, R., and Young, D. M. (2025).  
 “Subspace Ordering for Maximum Response Preservation in Sufficient Dimension Reduction.”  
-*Under Review at Journal of the American Statistical Association.*
+*Submitted to Journal of the American Statistical Association.*
 
 **Boonstra, D. T.**, Kim, R., and Young, D. M. (2025).  
 “Precision Matrix Regularization in Sufficient Dimension Reduction for Improved Quadratic Discriminant Classification.”  
