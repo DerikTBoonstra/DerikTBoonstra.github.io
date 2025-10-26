@@ -17,11 +17,11 @@ author_profile: true
 
 **Boonstra, D. T.**, Kim, R., and Young, D. M. (2025).  
 “Subspace Ordering for Maximum Response Preservation in Sufficient Dimension Reduction.”  
-*Submitted to Journal of the American Statistical Association.*
+*Submitted *
 
 **Boonstra, D. T.**, Kim, R., and Young, D. M. (2025).  
 “Precision Matrix Regularization in Sufficient Dimension Reduction for Improved Quadratic Discriminant Classification.”  
-*Under Review at Computational Statistics and Data Analysis.*  doi: [10.48550/arXiv.2506.19192](https://doi.org/10.48550/arXiv.2506.19192)
+*Under Review*  doi: [10.48550/arXiv.2506.19192](https://doi.org/10.48550/arXiv.2506.19192)
 
 ### Manuscripts in Progress
 
