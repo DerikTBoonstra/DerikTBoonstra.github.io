@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-[Derik_Boonstra_CV.pdf](/files/Derik_Boonstra_CV_Website.pdf)
+[Derik_Boonstra_CV.pdf](/files/Derik_Boonstra_CV.pdf)
