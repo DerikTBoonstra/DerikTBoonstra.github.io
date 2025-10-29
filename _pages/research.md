@@ -31,6 +31,7 @@ In mathematical terms, let $Y$ represent the response or variable of interest th
 
 ## Dimension Reduction Subspace Criteria
 --- 
+SDR methods reduce the dimensionality of the features $\mathbf{X} \in \mathbb{R}^{p}$ by constructing a method-specific projection matrix $\boldsymbol{\beta} \in \mathbb{R}^{p \times d}$ and then applying the linear transformation $\boldsymbol{\beta}^{\top}\mathbf{X} \in \mathbb{R}^{d}$. 
 
 
 ## Publications & Manuscripts
