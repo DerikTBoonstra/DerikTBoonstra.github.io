@@ -7,53 +7,18 @@ author_profile: true
 
 My research is motivated by the expansion of ''big data" and the challenges introduced in these high-dimensional settings. A prominent example arises in genomics, where researchers analyze large biological datasets to understand how genetic variation influences traits and disease. In such research, DNA is extracted and sequenced, producing tens of thousands of features, each representing a gene, nucleotide, or molecular marker. 
 
-<style>
-.image-popup {
-  cursor: zoom-in;
-  transition: transform 0.2s ease;
-}
-.image-popup:hover {
-  opacity: 0.9;
-}
-#popup-modal {
-  display: none;
-  position: fixed;
-  z-index: 9999;
-  padding-top: 5%;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.85);
-}
-#popup-modal img {
-  margin: auto;
-  display: block;
-  max-width: 90%;
-  max-height: 90%;
-}
-#popup-modal:target {
-  display: block;
-}
-</style>
+<div style="text-align:center;">
 
-<a href="#popup-modal">
-  <img src="/files/dna.png" alt="DNA sequence visualization"
-       class="image-popup" style="width:40%; border-radius:8px;">
-</a>
+  <img src="/files/dna.png" alt="DNA sequence visualization" style="width:40%; border-radius:8px;">
 
-<div id="popup-modal">
-  <a href="#" title="Close">
-    <img src="/files/dna.png" alt="DNA sequence visualization">
-  </a>
-</div>
+  <div style="font-size:0.85em; color:gray;">
+    Source:
+    <a href="https://medium.com/@xiaofan.luan/dna-sequence-classification-based-on-milvus-f87e87bc5ba9"
+       target="_blank" style="color:gray; text-decoration:none;">
+       Medium — Xiaofan Luan
+    </a>
+  </div>
 
-<div style="font-size:0.85em; color:gray;">
-  Source:
-  <a href="https://medium.com/@xiaofan.luan/dna-sequence-classification-based-on-milvus-f87e87bc5ba9"
-     target="_blank" style="color:gray; text-decoration:none;">
-     Medium — Xiaofan Luan
-  </a>
 </div>
 
 Reducing this immense dimensionality of features to capture the essential biological signal is critical for revealing meaningful genetic structure, improving disease prediction, and developing targeted therapies. My research addresses these issues by developing sufficient dimension reduction methodologies that extract the most informative structures from high-dimensional data and project them onto lower-dimensional subspaces for improved modeling, inference, and visualization.
