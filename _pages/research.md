@@ -32,9 +32,11 @@ In mathematical terms, let $Y$ represent the response or variable of interest th
 ## Dimension Reduction Subspace Criteria
 --- 
 Sufficient dimension reduction methods reduce the dimensionality of the $p$-dimensional features $\mathbf{X} \in \mathbb{R}^{p}$ to $d < p$ dimensions by constructing a method-specific projection matrix $\boldsymbol{\beta} \in \mathbb{R}^{p \times d}$ and then applying the linear transformation $\boldsymbol{\beta}^{\top}\mathbf{X} \in \mathbb{R}^{d}$. Thus, how do we determine $\boldsymbol{\beta}$? Most *SDR* methods determine $\boldsymbol{\beta}$ by using eigenvectors (if you already understand eigenvectors, feel free to skip below). Suppose we have a data given by the matrix $\mathbf{A} \in \mathbb{R}^{p \times p}$, then eigenvectors are vectors that satisfy 
-$$\mathbf{A}\mathbf{v} = \lambda \mathbf{v}$$. 
+$$
+\mathbf{A}\mathbf{v} = \lambda \mathbf{v}.
+$$ 
 
-how do we determine what $\boldsymbol{\beta}$
+
 
 
 ## Publications & Manuscripts
