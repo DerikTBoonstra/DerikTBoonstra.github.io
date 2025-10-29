@@ -9,7 +9,7 @@ My research is motivated by the expansion of ''big data" and the challenges intr
 
 ## Sufficient Dimension Reduction
 --- 
-Dimension reduction is often associated with the field of multivariate statistics, which is a field that often carries a reputation for being difficult due to its heavy use of matrix algebra and abstract geometric concepts. While this perception has some truth—even for me, as I often have to revisit the underlying math—dimension reduction is actually quite intuitive and something people constantly do without realizing it.
+Dimension reduction is often associated with the field of multivariate statistics, which is a field that can carry a reputation for being difficult due to its heavy use of matrix algebra and abstract geometric concepts. While this perception has some truth—even for me, as I often have to revisit the underlying math—dimension reduction is actually quite intuitive and something people constantly do without realizing it. In fact, this paragraph is a form of dimension reduction. That is, dimension reduction is simply the act of reducing the size of any information into a smaller and more digestible form. Ever skip through a video just to catch the main points or watch a TikTok at 2x speed? These are both examples of dimension reduction, with countless more found in everyday life. 
 
 ## Dimension Reduction Subspace Criteria
 --- 
