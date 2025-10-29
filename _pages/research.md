@@ -34,11 +34,17 @@ In mathematical terms, let $Y$ represent the response or variable of interest th
 ### Eigenvectors for Dimension Reduction
 So, how do we determine the projection matrix $\boldsymbol{\beta} \in \mathbb{R}^{d}$ used in *SDR* to reduce the data from $p$ dimensions to $d < p$ dimensions? Most *SDR* methods determine $\boldsymbol{\beta}$ by using eigenvectors (if you already understand eigenvectors, feel free to skip below). Suppose we have data given by the matrix $\mathbf{A} \in \mathbb{R}^{p \times p}$, then eigenvectors are any vector $\mathbf{v} \in \mathbb{R}^{p}$ that satisfy $\mathbf{A}\mathbf{v} = \lambda \mathbf{v}$, where $\lambda$ is a scaler value. Most encounter this concept in a linear algebra course and they learn how to numerically solve for $\mathbf{v}$. However, I find it is not always clear to most what an eigenvector represents beyond its formulation, or at least for me it initially wasn't. 
 
-<div style="display:flex; justify-content:center; align-items:center; gap:10px;">
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:14px;">
 
-  <img src="/files/omega.gif" alt="Omega animation" style="width:45%; border-radius:8px;">
+  <div style="text-align:center;">
+    <div style="font-weight:600; margin-bottom:6px;">A typical vector ($\mathbf{\omega}$)</div>
+    <img src="/files/omega.gif" alt="Typical vector animation" style="width:42%; min-width:240px; border-radius:6px;">
+  </div>
 
-  <img src="/files/v.gif" alt="V animation" style="width:45%; border-radius:8px;">
+  <div style="text-align:center;">
+    <div style="font-weight:600; margin-bottom:6px;">An eigenvector (\mathbf{v})</div>
+    <img src="/files/v.gif" alt="Eigenvector animation" style="width:42%; min-width:240px; border-radius:6px;">
+  </div>
 
 </div>
 
