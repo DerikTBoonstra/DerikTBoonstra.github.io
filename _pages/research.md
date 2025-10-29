@@ -7,7 +7,7 @@ author_profile: true
 
 My research is motivated by the expansion of ''big data" and the challenges introduced in these high-dimensional settings. A prominent example arises in genomics, where researchers analyze large biological datasets to understand how genetic variation influences traits and disease. In such research, DNA is extracted and sequenced, producing tens of thousands of features, each representing a gene, nucleotide, or molecular marker. 
 
-<img src="/files/dna.png" alt="DNA sequence visualization" style="width:80%; border-radius:8px;">
+<img src="/files/dna.png" alt="DNA sequence visualization" style="width:40%; border-radius:8px;">
 
 <div style="font-size:0.85em; color:gray;">
 Source: <a href="https://medium.com/@xiaofan.luan/dna-sequence-classification-based-on-milvus-f87e87bc5ba9" target="_blank" style="color:gray; text-decoration:none;">Medium — Xiaofan Luan</a>
