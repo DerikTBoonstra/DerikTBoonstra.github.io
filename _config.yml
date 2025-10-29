@@ -20,10 +20,10 @@ repository               : "https://github.com/DerikTBoonstra/DerikTBoonstra.git
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+#               Additional customization caxn be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "headshot.png"
+  avatar           : "headshot.jpg"
   name             : "Derik Todd Boonstra"
   pronouns         : "he/him"  
   bio              : "Ph.D. Candidate in Statistical Science and Teacher of Record at Baylor University"
