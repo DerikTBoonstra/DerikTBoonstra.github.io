@@ -34,7 +34,7 @@ In mathematical terms, let $Y$ represent the response or variable of interest th
 ### Eigenvectors for Dimension Reduction
 So, how do we determine the projection matrix $\boldsymbol{\beta} \in \mathbb{R}^{d}$ used in *SDR* to reduce the data from $p$ dimensions to $d < p$ dimensions? Most *SDR* methods determine $\boldsymbol{\beta}$ by using eigenvectors (if you already understand eigenvectors, feel free to skip below). Suppose we have data given by the matrix $\mathbf{A} \in \mathbb{R}^{p \times p}$, then eigenvectors are any vector $\mathbf{v} \in \mathbb{R}^{p}$ that satisfy $\mathbf{A}\mathbf{v} = \lambda \mathbf{v}$, where $\lambda$ is a scaler value. Most encounter this concept in a linear algebra course and they learn how to numerically solve for $\mathbf{v}$. However, I find it is not always clear to most what an eigenvector represents beyond its formulation, or at least for me it initially wasn't. 
 
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:14px;">
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:10px;">
 
   <div style="text-align:center;">
     <div style="font-weight:600; margin-bottom:6px;">A typical vector ($\mathbf{\omega}$)</div>
