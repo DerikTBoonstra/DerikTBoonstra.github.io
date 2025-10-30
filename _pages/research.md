@@ -58,7 +58,7 @@ $\mathbf{M}\mathbf{v}_j = \lambda_j \mathbf{N}\mathbf{v}_j, \quad j = 1, \ldots,
 where  $\mathbf{N} \in \mathbb{R}^{p \times p}$ is a symmetric and positive definite matrix often taken to be the covariance matrix of $\mathbf{X}$, denoted $\boldsymbol{\Sigma}\_{\mathbf{X}}$.
 
 ## Dimension Reduction Subspace Criteria
-Once the kernel matrix $\mathbf{M}$ used in the generalized eigenvalue problem and the optimal dimension $d$ to which the data should be reduced have been determined, then researchers have traditionally always used the $d$ eigenvectors corresponding to the largest eigenvalues $\lambdas$s to construct the basis for projection matrix $\boldsymbol{\beta}$. That is, let $\mathbf{v}\_{1}, \ldots , \mathbf{v}\_{p}$ denote the eigenvectors corresponding to the eigenvalues $\lambda_{1} \leq \ldots \leq \lambda_{p}$, then
+Once the kernel matrix $\mathbf{M}$ used in the generalized eigenvalue problem and the optimal dimension $d$ to which the data should be reduced have been determined, then researchers have traditionally always used the $d$ eigenvectors corresponding to the largest eigenvalues $\lambda$s to construct the basis for projection matrix $\boldsymbol{\beta}$. That is, let $\mathbf{v}\_{1}, \ldots , \mathbf{v}\_{p}$ denote the eigenvectors corresponding to the eigenvalues $\lambda_{1} \leq \ldots \leq \lambda_{p}$, then
 traditionally $\mathbf{V} = (\mathbf{v}\_{1}, \ldots , \mathbf{v}\_{d}) \in \mathbb{R}^{p \times d}$ is used as the projection matrix $\boldsymbol{\beta}$. Most work in *SDR* focuses on proposing new ways to construct $\mathbf{M}$ or developing methods to determine $d$. 
 
 --- 
