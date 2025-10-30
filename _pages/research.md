@@ -55,7 +55,7 @@ Most SDR methods do not simply use the eigenvectors of the data matrix $\mathbf{
 <div style="text-align:center;">
 $\mathbf{M}\mathbf{v}_j = \lambda_j \mathbf{N}\mathbf{v}_j, \quad j = 1, \ldots, p$
 </div>
-where  $\mathbf{N} \in \mathbb{R}^{p \times p}$ is a symmetric and positive definite matrix often taken to be the covariance matrix of the data matrix $\mathbf{X}$, denoted as $\boldsymbol{\Sigma}\_{\mathbf{X}}$.
+where  $\mathbf{N} \in \mathbb{R}^{p \times p}$ is a symmetric and positive definite matrix often taken to be the covariance matrix of $\mathbf{X}$, denoted as $\boldsymbol{\Sigma}\_{\mathbf{X}}$.
 
 ## Dimension Reduction Subspace Criteria
 --- 
