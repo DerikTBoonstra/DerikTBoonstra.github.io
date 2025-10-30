@@ -58,8 +58,13 @@ $\mathbf{M}\mathbf{v}_j = \lambda_j \mathbf{N}\mathbf{v}_j, \quad j = 1, \ldots,
 where  $\mathbf{N} \in \mathbb{R}^{p \times p}$ is a symmetric and positive definite matrix often taken to be the covariance matrix of $\mathbf{X}$, denoted $\boldsymbol{\Sigma}\_{\mathbf{X}}$.
 
 ## Dimension Reduction Subspace Criteria
-Once the kernel matrix $\mathbf{M}$ used in the generalized eigenvalue problem and the optimal dimension $d$ to which the data should be reduced have been determined, then researchers have traditionally always used the $d$ eigenvectors corresponding to the largest eigenvalues $\lambda$s to construct the basis for projection matrix $\boldsymbol{\beta}$. That is, let $\mathbf{v}\_{1}, \ldots , \mathbf{v}\_{p}$ be the eigenvectors corresponding to the eigenvalues $\lambda_{1} \geq \ldots \geq \lambda_{p}$, then
-traditionally $\mathbf{V} = (\mathbf{v}\_{1}, \ldots , \mathbf{v}\_{d}) \in \mathbb{R}^{p \times d}$ is used as the projection matrix $\boldsymbol{\beta}$. Most work in *SDR* focuses on proposing new ways to construct $\mathbf{M}$ or developing methods to determine $d$. 
+Once the kernel matrix $\mathbf{M}$ used in the generalized eigenvalue problem and the optimal dimension $d$ to which the data should be reduced have been determined, researchers have traditionally used the $d$ eigenvectors corresponding to the largest eigenvalues $\lambda$s to construct the basis for the projection matrix $\boldsymbol{\beta}$. Let $\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}$ be the eigenvectors corresponding to the eigenvalues $\lambda_{1} \geq \ldots \geq \lambda_{p}$. Then, traditionally, $\mathbf{V} = (\mathbf{v}_{1}, \ldots, \mathbf{v}_{d}) \in \mathbb{R}^{p \times d}$ is used as the projection matrix $\boldsymbol{\beta}$. Most work in SDR focuses on proposing new ways to construct $\mathbf{M}$ or developing methods to determine $d$. While my research explores these directions, a central contribution of my work is the introduction of the field of dimension reduction subspace ordering criteria, which directly questions the long-standing use of eigenvalues as the criterion for selecting the eigenvectors used to construct the projection matrix.
+
+
+
+
+
+and instead proposes using different criteria that directly align with the goal of the supervised learner. 
 
 --- 
 
