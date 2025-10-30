@@ -52,10 +52,10 @@ In the figures above, the grid represents the transformation, and the dotted lin
 
 ### Generalized Eigenvalue Problem
 Most SDR methods do not simply use the eigenvectors of the data matrix $\mathbf{X}$ to construct the projection matrix. Why? Because doing so still involves the entire dataset, which can be extremely large, computationally expensive, and contains a lot of noise. Instead, it is often more practical to work with summary measures of the data, such as means and covariances. Moreover, in *SDR* we are specifically concerned with preserving all information in the response $Y$ with respect to the predictor $\mathbf{X}$. Thus, most *SDR* methods construct a method-specific kernel matrix $\mathbf{M} \in \mathbb{R}^{p \times p}$ that captures the relationship between $Y$ and $\mathbf{X}$. For example, [Li (1991)](https://www.tandfonline.com/doi/abs/10.1080/01621459.1991.10475035) introduced this concept through the *sliced inverse regression* (*SIR*) method by proposing the kernel matrix  $\mathbf{M}\_{SIR} = \text{Cov}\left(\mathbb{E}[\mathbf{X} - \mathbb{E}\{\mathbf{X}|Y\}]\right)$. [Li (2007)](https://doi.org/10.1093/biomet/asm044) then showed that most *SDR* methods are formulated by solving the generalized eigenvalue problem 
-$$
-\mathbf{M} \mathbf{v}_j = \lambda_j \mathbf{N} \mathbf{v}_j, j = 1, \ldots, p,
-$$
-where  $\mathbf{N} \in \mathbb{R}^{p \times p}$ is a symmetric and positive definite matrix, often taken to be the covariance matrix of the data matrix $\mathbf{X}$, denoted as $\boldsymbol{\Sigma}\_{\mathbf{X}}$.
+<div style="text-align:center;">
+$\mathbf{M}\mathbf{v}_j = \lambda_j \mathbf{N}\mathbf{v}_j, \quad j = 1, \ldots, p$
+</div>
+where  $\mathbf{N} \in \mathbb{R}^{p \times p}$ is a symmetric and positive definite matrix often taken to be the covariance matrix of the data matrix $\mathbf{X}$, denoted as $\boldsymbol{\Sigma}\_{\mathbf{X}}$.
 
 ## Dimension Reduction Subspace Criteria
 --- 
