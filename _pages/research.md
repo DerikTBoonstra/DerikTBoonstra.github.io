@@ -38,12 +38,12 @@ So, how do we determine the projection matrix $\boldsymbol{\beta} \in \mathbb{R}
 
   <div style="text-align:center; flex:1;">
     <div style="font-weight:600; margin-bottom:6px;">A typical vector ($\mathbf{\omega}$)</div>
-    <img src="/files/omega.gif" alt="Omega animation" style="width:100%; border-radius:8px;">
+    <img src="/files/omega.gif" alt="Omega animation" style="width:80%; border-radius:8px;">
   </div>
 
   <div style="text-align:center; flex:1;">
     <div style="font-weight:600; margin-bottom:6px;">An eigenvector ($\mathbf{v}$)</div>
-    <img src="/files/v.gif" alt="V animation" style="width:100%; border-radius:8px;">
+    <img src="/files/v.gif" alt="V animation" style="width:80%; border-radius:8px;">
   </div>
 
 </div>
