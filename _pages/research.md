@@ -48,7 +48,8 @@ So, how do we determine the projection matrix $\boldsymbol{\beta} \in \mathbb{R}
 
 </div>
 
-In the figures below, the grid represents the transformation, and the dotted line (red) shows all possible points that lie along the same direction as the vector i.e. the span of the vector. We see that the typical vector ($\boldsymbol{\omega}$) is knocked off its span after the transformation, meaning its direction changes.
+In the figures above, the grid represents the transformation, and the dotted red line shows all possible points that lie along the same direction as the vector, i.e., the span of the vector. We see that the typical vector ($\boldsymbol{\omega}$) is knocked off its span after the transformation, which means its direction changes and it no longer preserves the same information in the data. In contrast, the eigenvector $\mathbf{v}$ only stretches slightly. The amount by which the eigenvector stretches is its eigenvalue $\lambda$. Hence, the eigenvector $\mathbf{v}$ stays on its span during the transformation and thereby represents the principal directions of the data matrix $\mathbf{A}$. If we find all eigenvectors of $\mathbf{A}$, they form a new coordinate system aligned with how $\mathbf{A}$ transforms space. Therefore, by using $d$ of the eigenvectors to form the basis for the projection matrix, we can reduce the data onto these principal directions and effectively capture the dominant structure of $\mathbf{A}$ in this lower $d$-dimensional space.
+
 
 ## Dimension Reduction Subspace Criteria
 --- 
