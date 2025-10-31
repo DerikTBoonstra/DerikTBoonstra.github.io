@@ -68,8 +68,8 @@ To illustrate this, consider a simple example with two populations whose respect
 $
 \boldsymbol{\Sigma} =
 \begin{bmatrix}
-3 & 0 & 0 \
-0 & 2 & 0 \
+3 & 0 & 0 \\
+0 & 2 & 0 \\
 0 & 0 & 1
 \end{bmatrix}.
 $ Consider the most popular *SDR* technique, principal components, in which dimension reduction is defined by the eigenvectors of $\boldsymbol{\Sigma}$. It is easily shown that the eigenvectors of $\boldsymbol{\Sigma}$ are $\mathbf{v}\_1 = (1, 0, 0)^\top$, $\mathbf{v}\_2 = (0, 1, 0)^\top$, and $\mathbf{v}\_3 = (0, 0, 1)^\top$, with respective eigenvalues $\lambda\_1 = 3$, $\lambda\_2 = 2$, and $\lambda\_3 = 1$. Thus, since $\lambda\_{1} > \lambda\_{2} > \lambda\_{3}$, the dimension reduction subspace is traditionally taken to be $(\mathbf{v}\_{1}, \mathbf{v}\_{2}, \mathbf{v}\_{3})$. Moreover, since there are two populations with a common covariance matrix, the optimal dimension to reduce to is $d = 1$, and as a result, $\mathbf{v}\_1$ would be chosen as the projection vector and most informative subspace based on the eigenvalues. However, from the figure below, we clearly see this is not true.
