@@ -84,6 +84,34 @@ $ \Delta_{j}  = \frac{\left| \mathbf{v}^{\top}_{j}(\boldsymbol{\mu}_{2} - \bolds
 </div>
 which is the population analogue of the independent Student’s T-statistic. For our example, $\Delta\_{1} = 0$, $\Delta\_{2} = 0$, and $\Delta\_{3} = \alpha$. Thus, since $\Delta\_{3} > \Delta\_{2} = \Delta\_{1}$, the eigenvectors should be reordered by their importance as $(\mathbf{v}\_{3}, \mathbf{v}\_{2}, \mathbf{v}\_{1})$. Under the traditional eigenvalue ordering framework, $\mathbf{v}\_{3}$ would never have been considered; however, our criterion $\Delta\_{j}$ correctly identified $\mathbf{v}\_{3}$ as the most informative subspace. See Boonstra et al. (2025b) for additional details and theoretical results.
 
+## Categorical or Continuous Response
+
+<div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+  <label for="method" style="font-weight:600;">View method:</label>
+  <select id="method">
+    <option value="/files/pca.png" selected>PCA</option>
+    <option value="/files/save.png">SAVE</option>
+    <option value="/files/sir2.png">SIR-II</option>
+    <option value="/files/ssdr.png">SSDS</option>
+  </select>
+</div>
+
+<div style="text-align:center;">
+  <img id="method-img" src="/files/pca.png" alt="PCA figure"
+       style="max-width:100%; height:auto; border-radius:8px;">
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const sel = document.getElementById('method');
+  const img = document.getElementById('method-img');
+  sel.addEventListener('change', () => {
+    img.src = sel.value;
+    img.alt = sel.options[sel.selectedIndex].text + ' figure';
+  });
+});
+</script>
+
 ## Publications & Manuscripts
 ---
 
