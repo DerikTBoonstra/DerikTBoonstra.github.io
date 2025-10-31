@@ -58,6 +58,7 @@ $\mathbf{M}\mathbf{v}_j = \lambda_j \mathbf{N}\mathbf{v}_j, \quad j = 1, \ldots,
 where  $\mathbf{N} \in \mathbb{R}^{p \times p}$ is a symmetric and positive definite matrix often taken to be the covariance matrix of $\mathbf{X}$, denoted $\boldsymbol{\Sigma}\_{\mathbf{X}}$.
 
 ## Dimension Reduction Subspace Criteria
+--- 
 Once the kernel matrix $\mathbf{M}$ used in the generalized eigenvalue problem and the optimal dimension $d$ to which the data should be reduced have been determined, researchers have traditionally used the $d$ eigenvectors corresponding to the largest eigenvalues to construct the basis for the projection matrix $\boldsymbol{\beta}$. Let $\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}$ be the eigenvectors corresponding to the eigenvalues $\lambda\_{1} \geq \ldots \geq \lambda\_{p}$. Then, traditionally, $(\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{d}) \in \mathbb{R}^{p \times d}$ is used as the projection matrix $\boldsymbol{\beta}$. Most work in SDR focuses on proposing new ways to construct $\mathbf{M}$ or developing methods to determine $d$. While my research explores these directions, a central contribution of my work is the introduction of the field of dimension reduction subspace ordering criteria, which directly questions the long-standing use of eigenvalues as the criterion for selecting the eigenvectors used to construct the projection matrix.
 
 Eigenvalues generally represent the variability of the data in the respective eigenvector subspace. Hence, by choosing the eigenvectors corresponding to the largest eigenvalues, the idea is that these selected eigenvectors maximize the variability of the data in the resulting lower-dimensional subspace. However, eigenvalues are a flawed criterion because maximizing variability does not guarantee that the selected subspace preserves the relationship between the response and predictors, which is the goal of SDR. 
@@ -76,12 +77,11 @@ $$ Consider the most popular *SDR* technique of principal components in which th
   <img src="/files/ill_ex.png" alt="Illustration example" style="width:80%; border-radius:8px;">
 </div>
 
-To generate the figure, we simulated data and plotted the data in each eigenvector subspace. The goal is for the populations to remain distinct and separated in the reduced subspaces. However, clearly only $\mathbf{v}\_{3}$, the eigenvector corresponding to the smallest eigenvalue, preserves the differences in the populations. The reason for this is quite clear. As a reminder, the only difference in the populations was due to  $\alpha$ in $\mu\_{2}$, which was the third feature. Thus, only $\mathbf{v}\_3 = (0, 0, 1)^\top$ captures this difference. Motivated by this, we proposed a criterion that would correctly identify $\mathbf{v}\_{3}$ as the most information subspace. 
---- 
-
-
-
-
+To generate the figure, we simulated data and plotted the data in each eigenvector subspace. The goal is for the populations to remain distinct and separated in the reduced subspaces. However, clearly only $\mathbf{v}\_{3}$, the eigenvector corresponding to the smallest eigenvalue, preserves the differences in the populations. The reason for this is quite clear. As a reminder, the only difference in the populations was due to  $\alpha$ in $\mu\_{2}$, which was the third feature. Thus, only $\mathbf{v}\_3 = (0, 0, 1)^\top$ captures this difference. Motivated by this, we proposed a criterion that would correctly identify $\mathbf{v}\_{3}$ as the most information subspace. Thus, we proposed a population signal-to-noise ratio given by 
+<div style="text-align:center;">
+$ \Delta_{j}  = \frac{\left| \mathbf{v}^{\top}_{j}(\boldsymbol{\mu}_{2} - \boldsymbol{\mu}_{1}) \right|}{\sqrt{ \pi_{2}\mathbf{v}^{\top}_{j}\boldsymbol{\Sigma}_{2}\mathbf{v}_{j} + \pi_{1}\mathbf{v}^{\top}_{j}\boldsymbol{\Sigma}_{1}\mathbf{v}_{j}}}, \quad j = 1, \ldots, p, $
+</div>
+which is the population analogue of the independent Student's T-statistic. 
 
 ## Publications & Manuscripts
 ---
