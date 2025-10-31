@@ -86,13 +86,13 @@ which is the population analogue of the independent Student’s T-statistic. For
 
 ## Categorical or Continuous Response
 
-<div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+<div style="display:flex; align-items:center; gap:8px; margin-bottom:8px; color:black;">
   <label for="method" style="font-weight:600;">View method:</label>
   <select id="method">
     <option value="/files/pca.png" selected>PCA</option>
     <option value="/files/save.png">SAVE</option>
     <option value="/files/sir2.png">SIR-II</option>
-    <option value="/files/ssdr.png">SSDS</option>
+    <option value="/files/ssdr.png">SSDR</option>
   </select>
 </div>
 
