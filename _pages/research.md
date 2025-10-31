@@ -86,8 +86,10 @@ which is the population analogue of the independent Student’s T-statistic. For
 
 ## Categorical or Continuous Response
 
+In Boonstra et al. (2025b), we naturally extend the idea of subspace ordering criteria to a categorical response with more than two populations by using an F-statistic, denote as $F_{j}$. Similarly, when a response is continuous, most SDR methods
+
 <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px; color:black;">
-  <label for="method" style="font-weight:600;">View method:</label>
+  <label for="method" style="font-weight:600;">SDR method:</label>
   <select id="method">
     <option value="/files/pca.png" selected>PCA</option>
     <option value="/files/save.png">SAVE</option>
