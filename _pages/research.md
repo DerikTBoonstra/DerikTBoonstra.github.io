@@ -86,7 +86,7 @@ which is the population analogue of the independent Student’s T-statistic. For
 
 ## Categorical or Continuous Response
 
-In Boonstra et al. (2025b), we naturally extend the idea of subspace ordering criteria to a categorical response with more than two populations by using an F-statistic, denote as $F_{j}$. Similarly, when a response is continuous, most SDR methods
+In Boonstra et al. (2025b), we naturally extend the idea of subspace ordering criteria to a categorical response with more than two populations by using an F-statistic, denoted as $F\_{j}$. When a response is continuous, most *SDR* methods discretize the response *Y* into *H* contiguous non-overlapping intervals to estimate conditional moments for constructing $\mathbf{M}$. Similarly, by treating the $H$ slices as categories, we can apply the $F\_{j}$ criterion when the response is continuous to maximize slice separation, which often identifies subspaces that best capture the conditional moments. An example for multiple *SDR* methods is shown below using simulated data with  $Y\_{i} = \boldsymbol{\beta}^{\top}\mathbf{X}\_{i} + \varepsilon\_{i},$  where $\boldsymbol{\beta} \in \mathbb{R}^{p}$ has i.i.d. entries from a standard normal distribution. We can clearly see that using the $F\_{j}$ criterion instead of eigenvalues yields subspaces that better capture the relationship between the response and the predictors.
 
 <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px; color:black;">
   <label for="method" style="font-weight:600;">SDR method:</label>
