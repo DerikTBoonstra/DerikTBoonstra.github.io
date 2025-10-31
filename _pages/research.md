@@ -98,7 +98,7 @@ which is the population analogue of the independent Student’s T-statistic. For
 
 <div style="text-align:center;">
   <img id="method-img" src="/files/pca.png" alt="PCA figure"
-       style="max-width:100%; height:auto; border-radius:8px;">
+       style="max-width:80%; height:auto; border-radius:8px;">
 </div>
 
 <script>
