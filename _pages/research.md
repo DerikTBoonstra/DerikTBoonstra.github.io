@@ -64,15 +64,15 @@ Once the kernel matrix $\mathbf{M}$ used in the generalized eigenvalue problem a
 Eigenvalues generally represent the variability of the data in their respective eigenvector subspaces. Hence, by choosing the eigenvectors corresponding to the largest eigenvalues, the idea is that these selected eigenvectors maximize the variability of the data in the resulting lower-dimensional subspace. However, eigenvalues are a flawed criterion because maximizing variability does not guarantee that the selected subspace preserves the relationship between the response and predictors, which is the goal of *SDR*. Thus, in Boonstra et al. (2025b), we propose new subspace ordering criteria that explicitly capture the predictive information in each subspace to ensure that the selected subspaces align with the intended goal of the supervised learner.
 
 ### Binary Response
-To illustrate this, consider a simple example with two populations whose respective mean vectors are $\boldsymbol{\mu}_{1} = (0, 0, 0)$ and $\boldsymbol{\mu}_{2} = (0, 0, \alpha)$. Additionally, let both populations share the common covariance matrix
-$$
+To illustrate this, consider a simple example with two populations whose respective mean vectors are $\boldsymbol{\mu}\_{1} = (0, 0, 0)$ and $\boldsymbol{\mu}\_{2} = (0, 0, \alpha)$. Additionally, let both populations share the common covariance matrix
+$
 \boldsymbol{\Sigma} =
 \begin{bmatrix}
 3 & 0 & 0 \
 0 & 2 & 0 \
 0 & 0 & 1
 \end{bmatrix}.
-$$ Consider the most popular *SDR* technique, principal components, in which dimension reduction is defined by the eigenvectors of $\boldsymbol{\Sigma}$. It is easily shown that the eigenvectors of $\boldsymbol{\Sigma}$ are $\mathbf{v}\_1 = (1, 0, 0)^\top$, $\mathbf{v}\_2 = (0, 1, 0)^\top$, and $\mathbf{v}\_3 = (0, 0, 1)^\top$, with respective eigenvalues $\lambda\_1 = 3$, $\lambda\_2 = 2$, and $\lambda\_3 = 1$. Thus, since $\lambda\_{1} > \lambda\_{2} > \lambda\_{3}$, the dimension reduction subspace is traditionally taken to be $(\mathbf{v}\_{1}, \mathbf{v}\_{2}, \mathbf{v}\_{3})$. Moreover, since there are two populations with a common covariance matrix, the optimal dimension to reduce to is $d = 1$, and as a result, $\mathbf{v}\_1$ would be chosen as the projection vector and most informative subspace based on the eigenvalues. However, from the figure below, we clearly see this is not true.
+$ Consider the most popular *SDR* technique, principal components, in which dimension reduction is defined by the eigenvectors of $\boldsymbol{\Sigma}$. It is easily shown that the eigenvectors of $\boldsymbol{\Sigma}$ are $\mathbf{v}\_1 = (1, 0, 0)^\top$, $\mathbf{v}\_2 = (0, 1, 0)^\top$, and $\mathbf{v}\_3 = (0, 0, 1)^\top$, with respective eigenvalues $\lambda\_1 = 3$, $\lambda\_2 = 2$, and $\lambda\_3 = 1$. Thus, since $\lambda\_{1} > \lambda\_{2} > \lambda\_{3}$, the dimension reduction subspace is traditionally taken to be $(\mathbf{v}\_{1}, \mathbf{v}\_{2}, \mathbf{v}\_{3})$. Moreover, since there are two populations with a common covariance matrix, the optimal dimension to reduce to is $d = 1$, and as a result, $\mathbf{v}\_1$ would be chosen as the projection vector and most informative subspace based on the eigenvalues. However, from the figure below, we clearly see this is not true.
 
 <div style="text-align:center;">
   <img src="/files/ill_ex.png" alt="Illustration example" style="width:80%; border-radius:8px;">
