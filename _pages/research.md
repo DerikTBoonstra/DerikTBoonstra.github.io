@@ -76,7 +76,7 @@ $$ Consider the most popular *SDR* technique of principal components in which th
   <img src="/files/ill_ex.png" alt="Illustration example" style="width:80%; border-radius:8px;">
 </div>
 
-To generate the figure, we simulated data and plotted the data in each eigenvector subspace. The goal is for the populations to remain distinct and separated in the reduced subspaces. However, clearly only $\mathbf{v}\_{3}$, the eigenvector corresponding to the smallest eigenvalue, preserves the differences in the populations. The reason for this is quite clear. As a reminder, the only difference in the populations was due to  $\alpha$ in $\mu\_{2}$, which was the third feature. Thus, only $\mathbf{v}\_3 = (0, 0, 1)^\top$ captures this difference. 
+To generate the figure, we simulated data and plotted the data in each eigenvector subspace. The goal is for the populations to remain distinct and separated in the reduced subspaces. However, clearly only $\mathbf{v}\_{3}$, the eigenvector corresponding to the smallest eigenvalue, preserves the differences in the populations. The reason for this is quite clear. As a reminder, the only difference in the populations was due to  $\alpha$ in $\mu\_{2}$, which was the third feature. Thus, only $\mathbf{v}\_3 = (0, 0, 1)^\top$ captures this difference. Motivated by this, we proposed a criterion that would correctly identify $\mathbf{v}\_{3}$ as the most information subspace. 
 --- 
 
 
