@@ -95,7 +95,7 @@ In Boonstra et al. (2025b), we naturally extend the idea of subspace ordering cr
   <select id="method" style="color:black; background-color:white; border:1px solid #ccc; padding:4px 6px; border-radius:4px;">
     <option value="/files/pca.png" selected>PCA</option>
     <option value="/files/save.png">SAVE</option>
-    <option value="/files/sir2.png">SIR</option>
+    <option value="/files/sir2.png">SIR-II</option>
     <option value="/files/ssdr.png">SSDR</option>
   </select>
 </div>
