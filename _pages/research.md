@@ -68,7 +68,7 @@ Thus, in Boonstra et. al. (2025b) we propose new subspace ordering criteria that
 0 & 2 & 0 \\
 0 & 0 & 1
 \end{bmatrix}.
-$$ Consider the most popular dimension reduction technique of principal components where the projection matrix 
+$$ Consider the most popular dimension reduction technique of principal components in which the dimension reduction subspace is defined by the eigenvectors of  $\boldsymbol{\Sigma}$. It is easily shown that the eigenvectors of $\boldsymbol{\Sigma}$ are $\mathbf{v}_1 = (1, 0, 0)^\top\), \(\mathbf{v}_2 = (0, 1, 0)^\top\), and \(\mathbf{v}_3 = (0, 0, 1)^\top$ with the respective eigenvalues  $\lambda_1 = 3$, $\lambda_2 = 2$, and $\lambda_3 = 1$. 
 
 --- 
 
