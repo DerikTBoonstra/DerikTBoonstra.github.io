@@ -61,7 +61,7 @@ where  $\mathbf{N} \in \mathbb{R}^{p \times p}$ is a symmetric and positive defi
 --- 
 Once the kernel matrix $\mathbf{M}$ used in the generalized eigenvalue problem and the optimal dimension $d$ to which the data should be reduced have been determined, researchers have traditionally used the $d$ eigenvectors corresponding to the largest eigenvalues to construct the basis for the projection matrix $\boldsymbol{\beta}$. Let $\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}$ be the eigenvectors corresponding to the eigenvalues $\lambda\_{1} \geq \ldots \geq \lambda\_{p}$. Then, traditionally, $(\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{d}) \in \mathbb{R}^{p \times d}$ is used as the projection matrix $\boldsymbol{\beta}$. Most work in SDR focuses on proposing new ways to construct $\mathbf{M}$ or developing methods to determine $d$. While my research explores these directions, a central contribution of my work is the introduction of the field of dimension reduction subspace ordering criteria, which directly questions the long-standing use of eigenvalues as the criterion for selecting the eigenvectors used to construct the projection matrix.
 
-Eigenvalues generally represent the variability of the data in their respective eigenvector subspaces. Hence, by choosing the eigenvectors corresponding to the largest eigenvalues, the idea is that these selected eigenvectors maximize the variability of the data in the resulting lower-dimensional subspace. However, eigenvalues are a flawed criterion because maximizing variability does not guarantee that the selected subspace preserves the relationship between the response and predictors, which is the goal of *SDR*. Thus, in Boonstra et al. (2025b), we propose new subspace ordering criteria that explicitly capture the predictive information in each subspace to ensure that the selected subspaces align with the intended goal of the supervised learner.
+Eigenvalues generally represent the variability of the data in their respective eigenvector subspaces. Hence, by choosing the eigenvectors corresponding to the largest eigenvalues, the idea is that these selected eigenvectors maximize the variability of the data in the resulting lower-dimensional subspace. However, eigenvalues are a flawed criterion because maximizing variability does not guarantee that the selected subspace preserves the relationship between the response and predictors, which is the goal of *SDR*. Thus, in [Boonstra et al. (2025)](https://arxiv.org/abs/2506.19192), we propose new subspace ordering criteria that explicitly capture the predictive information in each subspace to ensure that the selected subspaces align with the intended goal of the supervised learner.
 
 ### Binary Response
 To illustrate this, consider a simple example with two populations whose respective mean vectors are $\boldsymbol{\mu}\_{1} = (0, 0, 0)$ and $\boldsymbol{\mu}\_{2} = (0, 0, \alpha)$. Additionally, let both populations share the common covariance matrix
@@ -80,7 +80,7 @@ To generate the figure, we simulated data and plotted the data in each eigenvect
 <div style="text-align:center;">
 $ \Delta_{j}  = \frac{\left| \mathbf{v}^{\top}_{j}(\boldsymbol{\mu}_{2} - \boldsymbol{\mu}_{1}) \right|}{\sqrt{ \pi_{2}\mathbf{v}^{\top}_{j}\boldsymbol{\Sigma}_{2}\mathbf{v}_{j} + \pi_{1}\mathbf{v}^{\top}_{j}\boldsymbol{\Sigma}_{1}\mathbf{v}_{j}}}, \quad j = 1, \ldots, p, $
 </div>
-which is the population analogue of the independent Student’s T-statistic. For our example, $\Delta\_{1} = 0$, $\Delta\_{2} = 0$, and $\Delta\_{3} = \alpha$. Thus, since $\Delta\_{3} > \Delta\_{2} = \Delta\_{1}$, the eigenvectors should be reordered by their importance as $(\mathbf{v}\_{3}, \mathbf{v}\_{2}, \mathbf{v}\_{1})$. Under the traditional eigenvalue ordering framework, $\mathbf{v}\_{3}$ would never have been considered; however, our criterion $\Delta\_{j}$ correctly identified $\mathbf{v}\_{3}$ as the most informative subspace. See Boonstra et al. (2025b) for additional details and theoretical results.
+which is the population analogue of the independent Student’s T-statistic. For our example, $\Delta\_{1} = 0$, $\Delta\_{2} = 0$, and $\Delta\_{3} = \alpha$. Thus, since $\Delta\_{3} > \Delta\_{2} = \Delta\_{1}$, the eigenvectors should be reordered by their importance as $(\mathbf{v}\_{3}, \mathbf{v}\_{2}, \mathbf{v}\_{1})$. Under the traditional eigenvalue ordering framework, $\mathbf{v}\_{3}$ would never have been considered; however, our criterion $\Delta\_{j}$ correctly identified $\mathbf{v}\_{3}$ as the most informative subspace. See [Boonstra et al. (2025b)](https://arxiv.org/abs/2506.19192) for additional details and theoretical results.
 
 ## Categorical or Continuous Response
 
@@ -118,11 +118,11 @@ document.addEventListener('DOMContentLoaded', () => {
 ## Publications & Manuscripts
 ---
 
-**Boonstra, D. T.**, Kim, R., and Young, D. M. (2025b).  
+**Boonstra, D. T.**, Kim, R., and Young, D. M. (2025).  
 “Subspace Ordering for Maximum Response Preservation in Sufficient Dimension Reduction.”  
 *Submitted* doi: [10.48550/arXiv.2510.27593](https://doi.org/10.48550/arXiv.2510.27593) [pdf](https://www.arxiv.org/pdf/2510.27593) [code](https://github.com/DerikTBoonstra/Subspace_Ordering)
 
-**Boonstra, D. T.**, Kim, R., and Young, D. M. (2025a).  
+**Boonstra, D. T.**, Kim, R., and Young, D. M. (2025).  
 “Precision Matrix Regularization in Sufficient Dimension Reduction for Improved Quadratic Discriminant Classification.”  
 *Under Review*  doi: [10.48550/arXiv.2506.19192](https://doi.org/10.48550/arXiv.2506.19192) [pdf](https://arxiv.org/pdf/2506.19192) [code](https://github.com/DerikTBoonstra/Stabilized_SDR)
 
