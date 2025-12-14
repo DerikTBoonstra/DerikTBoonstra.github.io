@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 **Boonstra, D. T.**, Kim, R., and Young, D. M. (2025).  
 “Subspace Ordering for Maximum Response Preservation in Sufficient Dimension Reduction.”  
-*Submitted* doi: [10.48550/arXiv.2510.27593](https://doi.org/10.48550/arXiv.2510.27593) [pdf](https://www.arxiv.org/pdf/2510.27593) [code](https://github.com/DerikTBoonstra/Subspace_Ordering)
+*Under Review* doi: [10.48550/arXiv.2510.27593](https://doi.org/10.48550/arXiv.2510.27593) [pdf](https://www.arxiv.org/pdf/2510.27593) [code](https://github.com/DerikTBoonstra/Subspace_Ordering)
 
 **Boonstra, D. T.**, Kim, R., and Young, D. M. (2025).  
 “Precision Matrix Regularization in Sufficient Dimension Reduction for Improved Quadratic Discriminant Classification.”  
