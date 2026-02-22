@@ -35,7 +35,7 @@ the mind to engage with unfamiliar ideas. I am an advocate for inclusive and eng
 ## Courses Taught 
 ---
 
-**QBA 3305:** *Introduction to Business Analytics* <span style="float:right;">Fall 2025 – Present</span>  
+**QBA 3305:** *Introduction to Business Analytics* [syllabus.pdf](/files/QBA3305_syllabus) <span style="float:right;">Fall 2025 – Present</span>  
 - Teacher of Record. Independently developed all lecture materials, assignments, projects, and examinations. Taught undergraduate business students R programming for statistical methodologies as part of a departmental initiative to expose students to modern trends in data science for business analytics.  
 
 **STA 1380:** *Elementary Statistics* <span style="float:right;">Fall 2023, Spring 2024, Fall 2024, Spring 2025</span>  
