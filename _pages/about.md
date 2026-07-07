@@ -8,11 +8,11 @@ redirect_from:
 ---
 
 ## Welcome!
-I am a fourth-year Ph.D. Candidate in Statistical Science and Teacher of Record at Baylor University.  My primary research focuses on developing [*sufficient dimension reduction*](https://deriktboonstra.github.io/research/#sufficient-dimension-reduction) methodologies for high-dimensional data analysis with applications in  genomics, econometrics, and finance.  Moreover, I have introduced an emerging field of [*dimension reduction subspace criteria*](https://deriktboonstra.github.io/research/#dimension-reduction-subspace-criteria) which proposes new ways to order and evaluate subspaces beyond traditional eigenvalue-based methods. I am passionate about both teaching and research and aspire to join a university where I can teach and mentor students while continuing to advance statistical methodology.
+I am starting as an Assistant Professor of Instruction in the Department of Statistics and Data Science at the University of Texas at Austin. I am passionate about both teaching and research. I aspire to continuously refine my teaching pedagogy and to mentor students while advancing statistical methodology. My primary research focuses on developing [*sufficient dimension reduction*](https://deriktboonstra.github.io/research/#sufficient-dimension-reduction) methodologies for high-dimensional data analysis with applications in  genomics, econometrics, and finance.  Moreover, I have introduced an emerging field of [*dimension reduction subspace criteria*](https://deriktboonstra.github.io/research/#dimension-reduction-subspace-criteria) which proposes new ways to order and evaluate subspaces beyond traditional eigenvalue-based methods.
 
 ## Education
 
-**Ph.D.**, *Statistics, Baylor University*  August 2026 
+**Ph.D.**, *Statistics, Baylor University*  2026 
 - Concentrations: Data Science and Biostatistics  
 - Advisors: [Dean M. Young, Ph.D.](https://statistics.artsandsciences.baylor.edu/person/dr-dean-m-young) and [Rakheon Kim, Ph.D.](https://statistics.artsandsciences.baylor.edu/person/dr-rakheon-kim)  
 - Dissertation: “Heteroscedastic Sufficient Dimension Reduction Methodologies and Dimension Reduction Subspace Ordering Criteria”
