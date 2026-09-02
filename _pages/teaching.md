@@ -34,8 +34,11 @@ the mind to engage with unfamiliar ideas. I am an advocate for inclusive and eng
 
 ## Courses Taught 
 ---
+## University of Texas at Austin
+**SDS 320E:** *Elements of Statistics* [course materials](https://github.com/DerikTBoonstra/UT-SDS320E) [syllabus](https://utdirect.utexas.edu/apps/student/coursedocs/nlogon/?year=2026&semester=9&department=SDS&course_number=320E&course_title=&unique=&csn=&instructor_first=&instructor_last=Boonstra&course_type=In+Residence&search=) <span style="float:right;">Fall 2026 - Present</span>
 
-**QBA 3305:** *Introduction to Business Analytics* [syllabus](/files/QBA3305_syllabus.pdf) <span style="float:right;">Fall 2025 – Present</span>  
+## Baylor University
+**QBA 3305:** *Introduction to Business Analytics* [syllabus](/files/QBA3305_syllabus.pdf) <span style="float:right;">Fall 2025, Spring 2026</span>  
 - Teacher of Record. Independently developed all lecture materials, assignments, projects, and examinations. Taught undergraduate business students R programming for statistical methodologies as part of a departmental initiative to expose students to modern trends in data science for business analytics.  
 
 **STA 1380:** *Elementary Statistics* <span style="float:right;">Fall 2023, Spring 2024, Fall 2024, Spring 2025</span>  
